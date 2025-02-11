@@ -10,7 +10,7 @@ export default function Home() {
         <Link 
             className="w-1/4 bg-white text-black p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
             href={"/"}>
-            Home
+            Hom
         </Link>
     </header>
       <main className="grid grid-cols-2 gap-8 row-start-2 items-center sm:items-start">
