@@ -7,21 +7,29 @@ export default function Home() {
         <h1 className="text-xl font-bold">VCT Teams Nerdola´s Rankings</h1>
       </header>
       <main className="flex flex-col sm:grid grid-cols-2 gap-8 row-start-2 items-center sm:items-start">
-        <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-          <Link href="/ranking">2021/1</Link>
-        </div>
+        <Link href="/ranking">
+          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+            2021/1
+          </div>
+        </Link>
 
-        <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-          <Link href="/ranking2">2021/2</Link>
-        </div>
+        <Link href="/ranking2">
+          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+            2021/2
+          </div>
+        </Link>
 
-        <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-          <Link href="/ranking3">2022/1</Link>
-        </div>
+        <Link href="/ranking3">
+          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+          2022/1
+          </div>
+        </Link>
 
-        <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-          <Link href="/ranking4">2022/2</Link>
-        </div>
+        <Link href="/ranking4">
+          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+            2022/2
+          </div>
+        </Link>
 
         
       </main>
