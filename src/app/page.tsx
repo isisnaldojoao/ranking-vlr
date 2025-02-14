@@ -33,21 +33,20 @@ export default function Home() {
           </div>
         </Link>
 
-        <Link href="/ranking4">
+        <Link href="/ranking5">
           <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
             2022/2
           </div>
         </Link>
 
-        <Link href="/ranking4">
-          <div className="bg-yellow-600 flex text-white p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+        <Link href="/ranking6">
+          <div className="bg-yellow-500 flex text-white p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
             2022/3
           </div>
         </Link>
 
-        
       </main>
-      
+        <Image src="/torreta.png" width={100} height={100} alt="logo" className='mt-5 animate-pulse'/>
     </div>
   );
 }
