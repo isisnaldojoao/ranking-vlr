@@ -22,7 +22,7 @@ export default function Home() {
         </Link>
 
         <Link href="/ranking3">
-          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+          <div className="bg-yellow-500 flex text-white p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
           2021/3
           </div>
         </Link>

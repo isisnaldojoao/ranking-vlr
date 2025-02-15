@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Legend from '../../components/legend/legends';
+
 export default function Home() {
     return (
     <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -14,7 +16,11 @@ export default function Home() {
     </header>
 
         <main className="row-start-2 items-center sm:items-start w-full">
-            <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
+            <div className='flex items-center justify-center m-5'>
+                <h1>Version 4.0</h1>
+            </div>
+            <Legend/>
+            <div className="grid grid-cols-4 bg-purple-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>1º |</h1>
                 <Image src="https://static.significados.com.br/flags/us.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold '>OpTic Gaming</h3>
@@ -28,14 +34,14 @@ export default function Home() {
                 <div className="bg-white p-2 rounded-lg text-black ml-2">2110</div>
             </div>
 
-            <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
+            <div className="grid grid-cols-4 bg-yellow-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>3º |</h1>
                 <Image src="https://static.significados.com.br/flags/at.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold '>Acend</h3>
                 <div className="bg-white p-2 rounded-lg text-black ml-2">1624</div>
             </div>
 
-            <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
+            <div className="grid grid-cols-4 bg-purple-700 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>4º |</h1>
                 <img src="https://i.imgur.com/iAGv6WN.png" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold m-2'>FunPlus Phoenix</h3>
