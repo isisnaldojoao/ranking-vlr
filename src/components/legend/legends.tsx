@@ -2,7 +2,7 @@
 export default function Legend() {
  
     return (
-    <div className="flex gap-5 justify-center">
+    <div className="flex flex-col md:flex-row  gap-5 justify-center m-5">
         <div className='flex gap-2 items-center'>
             <div className="w-10 h-10 bg-green-500 rounded-lg"></div>
             <p>Lockin</p>
