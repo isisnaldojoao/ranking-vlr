@@ -4,7 +4,7 @@ import Legend from '../../components/legend/legends';
 
 export default function Home() {
     return (
-    <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="bg-black text-white items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
     <header className="w-full p-5 flex flex-col items-center justify-center">
         <h1 className="text-xl font-bold">VCT Teams Nerdola´s Rankings</h1>
         

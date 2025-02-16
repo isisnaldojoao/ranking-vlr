@@ -35,7 +35,7 @@ export default function Home() {
                   </Link>
 
                   <Link href="/ranking3">
-                    <div className="bg-yellow-500 flex text-white p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
                       2021/3
                     </div>
                   </Link>
@@ -45,50 +45,66 @@ export default function Home() {
           </Accordion>
 
 
-       
-        <Link href="/ranking4">
-          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-            2022/1
-          </div>
-        </Link>
+          <Accordion type="single" collapsible className="w-full bg-white rounded-lg">
+            <AccordionItem value="item-1" className='flex flex-col text-center'>
+              <AccordionTrigger className="flex items-center justify-center w-full text-center">Season 2022</AccordionTrigger>
+              <AccordionContent>
+                <div className="flex flex-col items-center"> {/* Centraliza os botões */}
+                <Link href="/ranking4">
+                  <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    2022/1
+                  </div>
+                </Link>
 
-        <Link href="/ranking5">
-          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-            2022/2
-          </div>
-        </Link>
+                <Link href="/ranking5">
+                  <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    2022/2
+                  </div>
+                </Link>
 
-        <Link href="/ranking6">
-          <div className="bg-yellow-500 flex text-white p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-            2022/3
-          </div>
-        </Link>
-
-        <Link href="/ranking7">
-          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-            2023/0
-          </div>
-        </Link>
-
-        <Link href="/ranking8">
-          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-            2023/1
-          </div>
-        </Link>
-
-        <Link href="/ranking9">
-          <div className="bg-white flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-            2023/2
-          </div>
-        </Link>
-
-        <Link href="/ranking10">
-          <div className="bg-yellow-500 flex text-white p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
-            2023/3
-          </div>
-        </Link>
+                <Link href="/ranking6">
+                  <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    2022/3
+                  </div>
+                </Link>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
 
 
+          <Accordion type="single" collapsible className="w-full bg-white rounded-lg">
+            <AccordionItem value="item-1" className='flex flex-col text-center'>
+              <AccordionTrigger className="flex items-center justify-center w-full text-center">Season 2023</AccordionTrigger>
+              <AccordionContent>
+                <div className="flex flex-col items-center"> {/* Centraliza os botões */}
+                <Link href="/ranking7">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2023/0
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking8">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2023/1
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking9">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2023/2
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking10">
+                    <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2023/3
+                    </div>
+                  </Link>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
 
       </main>
         <Image src="/torreta.png" width={100} height={100} alt="logo" className='mt-5 animate-pulse'/>
