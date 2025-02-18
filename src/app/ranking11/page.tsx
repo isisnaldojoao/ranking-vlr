@@ -17,13 +17,13 @@ export default function Home() {
 
         <main className="row-start-2 items-center sm:items-start w-full">
             <div className='flex items-center justify-center m-5'>
-                <h1>Version 5.0</h1>
+                <h1>Version 10.0</h1>
             </div>
             <Legend
                 
             />
 
-            <div className="grid grid-cols-4 bg-gradient-to-r from-purple-400 to-purple-700 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105">
+            <div className="grid grid-cols-4 bg-gradient-to-r from-purple-400 to-purple-600 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105">
                 <h1>1º |</h1>
                 <Image src="https://static.significados.com.br/flags/gb.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold '>Fnatic</h3>
@@ -65,7 +65,7 @@ export default function Home() {
                 <div className="bg-white p-2 rounded-lg text-black ml-2">1860</div>
             </div>
 
-            <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
+            <div className="grid grid-cols-4 bg-purple-700 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>7º |</h1>
                 <Image src="https://static.significados.com.br/flags/ua.svg" width={100} height={50} alt="logo"/>
                 <h3 className='text-xl font-bold m-2'>Natus Vincere</h3>

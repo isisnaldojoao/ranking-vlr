@@ -17,7 +17,7 @@ export default function Home() {
 
         <main className="row-start-2 items-center sm:items-start w-full">
             <div className='flex items-center justify-center m-5'>
-                <h1>Version 5.0</h1>
+                <h1>Version 6.0</h1>
             </div>
             <Legend/>
 
