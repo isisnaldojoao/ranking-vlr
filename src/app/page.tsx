@@ -21,21 +21,21 @@ export default function Home() {
             <AccordionItem value="item-1" className='flex flex-col text-center'>
               <AccordionTrigger className="flex items-center justify-center w-full text-center">Season 2021</AccordionTrigger>
               <AccordionContent>
-                <div className="flex flex-col items-center"> {/* Centraliza os botões */}
+                <div className="flex flex-col  items-center"> {/* Centraliza os botões */}
                   <Link href="/ranking">
-                    <div className="bg-black flex text-white mt-2 p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    <div className="bg-black flex text-white mt-2 p-5 w-[250px] items-center justify-center rounded-lg transition-all hover:scale-105">
                       2021/1
                     </div>
                   </Link>
 
                   <Link href="/ranking2">
-                    <div className="bg-black flex text-white mt-2 p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    <div className="bg-black flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                       2021/2
                     </div>
                   </Link>
 
                   <Link href="/ranking3">
-                    <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                       2021/3
                     </div>
                   </Link>
@@ -51,19 +51,19 @@ export default function Home() {
               <AccordionContent>
                 <div className="flex flex-col items-center"> {/* Centraliza os botões */}
                 <Link href="/ranking4">
-                  <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                  <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                     2022/1
                   </div>
                 </Link>
 
                 <Link href="/ranking5">
-                  <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                  <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                     2022/2
                   </div>
                 </Link>
 
                 <Link href="/ranking6">
-                  <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                  <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                     2022/3
                   </div>
                 </Link>
@@ -79,26 +79,32 @@ export default function Home() {
               <AccordionContent>
                 <div className="flex flex-col items-center"> {/* Centraliza os botões */}
                 <Link href="/ranking7">
-                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                       2023/0
                     </div>
                   </Link>
 
                   <Link href="/ranking8">
-                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                       2023/1
                     </div>
                   </Link>
 
                   <Link href="/ranking9">
-                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                       2023/2
                     </div>
                   </Link>
 
                   <Link href="/ranking10">
-                    <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[350px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    <div className="bg-black flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
                       2023/3
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking11">
+                    <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2023/4
                     </div>
                   </Link>
                 </div>

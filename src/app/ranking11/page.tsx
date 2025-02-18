@@ -25,37 +25,37 @@ export default function Home() {
 
             <div className="grid grid-cols-4 bg-gradient-to-r from-purple-400 to-purple-700 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105">
                 <h1>1º |</h1>
-                <Image src="https://static.significados.com.br/flags/us.svg" width={100} height={50} alt="logo"/>
+                <Image src="https://static.significados.com.br/flags/gb.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold '>Fnatic</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">3050</div>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">3142</div>
             </div>
 
-            <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
+            <div className="grid grid-cols-4 bg-yellow-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>2º |</h1>
                 <Image src="https://static.significados.com.br/flags/us.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold '>NRG</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">2570</div>
+                <h3  className='text-xl font-bold '>Evil Geniuses</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">2580</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>3º |</h1>
-                <img src="https://static.significados.com.br/flags/br.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold '>LOUD</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">2520</div>
+                <img src="https://static.significados.com.br/flags/sg.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold '>Paper Rex</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">2460</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>4º |</h1>
-                <Image src="https://static.significados.com.br/flags/ua.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold m-2'>Natus Vincere</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">1900</div>
+                <Image src="https://static.significados.com.br/flags/br.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>LOUD</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">2350</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>5º |</h1>
-                <Image src="https://static.significados.com.br/flags/sg.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold m-2'>Paper Rex</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">1870</div>
+                <Image src="https://static.significados.com.br/flags/us.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>NRG</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">1920</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
@@ -67,65 +67,72 @@ export default function Home() {
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>7º |</h1>
-                <Image src="https://static.significados.com.br/flags/us.svg" width={100} height={50} alt="logo"/>
-                <h3 className='text-xl font-bold m-2'>Evil Geniuses</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">1240</div>
+                <Image src="https://static.significados.com.br/flags/ua.svg" width={100} height={50} alt="logo"/>
+                <h3 className='text-xl font-bold m-2'>Natus Vincere</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">1700</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>8º |</h1>
-                <Image src="https://static.significados.com.br/flags/ar.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold m-2'>Leviatán</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">1010</div>
+                <Image src="https://static.significados.com.br/flags/cn.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>EDward Gaming</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">1269</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>9º |</h1>
-                <Image src="https://static.significados.com.br/flags/th.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold m-2'>Team Liquid</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">960</div>
+                <Image src="https://static.significados.com.br/flags/tr.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>FUT Esposts</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">840</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>10º |</h1>
                 <Image src="https://static.significados.com.br/flags/jp.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold m-2'>ZETA DIVISION</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">810</div>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">830</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>11º |</h1>
-                <Image src="https://static.significados.com.br/flags/th.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold m-2'>TALON</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">779</div>
+                <Image src="https://static.significados.com.br/flags/ar.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>Leviatán</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">800</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>12º |</h1>
-                <Image src="https://static.significados.com.br/flags/cn.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold m-2'>EDward Gaming</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">750</div>
+                <Image src="https://static.significados.com.br/flags/ar.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>KRU</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">792</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>13º |</h1>
-                <Image src="https://static.significados.com.br/flags/us.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold m-2'>100 Thieves</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">664</div>
+                <Image src="https://static.significados.com.br/flags/th.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>Team Liquid</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">760</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>14º |</h1>
-                <Image src="https://static.significados.com.br/flags/tr.svg" width={100} height={50} alt="logo"/>
-                <h3  className='text-xl font-bold m-2'>FUT Esports</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">480</div>
+                <Image src="https://static.significados.com.br/flags/cn.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>Bilibili Gaming</h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">720</div>
+            </div>
+
+            <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
+                <h1>15º |</h1>
+                <Image src="https://static.significados.com.br/flags/th.svg" width={100} height={50} alt="logo"/>
+                <h3  className='text-xl font-bold m-2'>TALON </h3>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">605</div>
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>15º |</h1>
                 <Image src="https://static.significados.com.br/flags/kr.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold m-2'>T1</h3>
-                <div className="bg-white p-2 rounded-lg text-black ml-2">480</div>
+                <div className="bg-white p-2 rounded-lg text-black ml-2">605</div>
             </div>
     
         </main>

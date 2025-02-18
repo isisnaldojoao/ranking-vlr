@@ -30,7 +30,7 @@ export default function Home() {
                 <div className="bg-white p-2 rounded-lg text-black ml-2">1560</div>
             </div>
 
-            <div className="grid grid-cols-4 bg-purple-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
+            <div className="grid grid-cols-4 bg-purple-400 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>2º |</h1>
                 <Image src="https://static.significados.com.br/flags/us.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold '>Sentinels </h3>
