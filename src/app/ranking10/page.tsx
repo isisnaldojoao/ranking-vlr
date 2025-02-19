@@ -23,7 +23,7 @@ export default function Home() {
                 
             />
 
-            <div className="grid grid-cols-4 bg-gradient-to-r from-purple-400 to-purple-600 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105">
+            <div className="grid grid-cols-4 bg-gradient-to-r from-purple-400 to-purple-700 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105">
                 <h1>1º |</h1>
                 <Image src="https://static.significados.com.br/flags/us.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold '>Fnatic</h3>
@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="bg-white p-2 rounded-lg text-black ml-2">2520</div>
             </div>
 
-            <div className="grid grid-cols-4 bg-purple-700 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
+            <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>4º |</h1>
                 <Image src="https://static.significados.com.br/flags/ua.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold m-2'>Natus Vincere</h3>
