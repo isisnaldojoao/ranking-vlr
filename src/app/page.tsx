@@ -112,6 +112,59 @@ export default function Home() {
             </AccordionItem>
           </Accordion>
 
+          
+          <Accordion type="single" collapsible className="w-full bg-white rounded-lg">
+            <AccordionItem value="item-1" className='flex flex-col text-center'>
+              <AccordionTrigger className="flex items-center justify-center w-full text-center">Season 2024</AccordionTrigger>
+              <AccordionContent>
+                <div className="flex flex-col items-center"> {/* Centraliza os botões */}
+                <Link href="/ranking12">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2024/0
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking13">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2024/1
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking14">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2024/2
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking15">
+                    <div className="bg-black flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2024/3
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking16">
+                    <div className="bg-black flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2024/4
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking17">
+                    <div className="bg-black flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2024/5
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking18">
+                    <div className="bg-yellow-500 flex text-white mt-2 p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2024/6
+                    </div>
+                  </Link>
+
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+
       </main>
         <Image src="/torreta.png" width={100} height={100} alt="logo" className='mt-5 animate-pulse'/>
     </div>
