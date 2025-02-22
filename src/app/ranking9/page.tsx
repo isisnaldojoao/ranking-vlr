@@ -96,7 +96,7 @@ export default function Home() {
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>11º |</h1>
-                <Image src="https://static.significados.com.br/flags/th.svg" width={100} height={50} alt="logo"/>
+                <Image src="https://static.significados.com.br/flags/nl.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold m-2'>Team Liquid</h3>
                 <div className="bg-white p-2 rounded-lg text-black ml-2">560</div>
             </div>
