@@ -165,6 +165,35 @@ export default function Home() {
             </AccordionItem>
           </Accordion>
 
+
+          <Accordion type="single" collapsible className="w-full bg-white rounded-lg">
+            <AccordionItem value="item-1" className='flex flex-col text-center'>
+              <AccordionTrigger className="flex items-center justify-center w-full text-center">Season 2025</AccordionTrigger>
+              <AccordionContent>
+                <div className="flex flex-col items-center"> {/* Centraliza os botões */}
+                <Link href="/ranking19">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2025/0
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking20">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2025/1
+                    </div>
+                  </Link>
+
+                  <Link href="/ranking21">
+                    <div className="bg-black text-white mt-2 flex text-black p-5 w-[250px]  items-center justify-center rounded-lg transition-all hover:scale-105">
+                      2025/2
+                    </div>
+                  </Link>
+
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+
       </main>
         <Image src="/torreta.png" width={100} height={100} alt="logo" className='mt-5 animate-pulse'/>
     </div>
