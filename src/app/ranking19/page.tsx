@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 import Image from 'next/image';
 import Legend from '../../components/legend/legends';
 import Header from '../../components/header/header';
