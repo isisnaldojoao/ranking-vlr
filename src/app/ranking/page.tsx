@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Legend from '../../components/legend/legends';
-import Footer from '../../components/footer/footer';
 
 export default function Home() {
     return (
