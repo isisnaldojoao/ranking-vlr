@@ -48,7 +48,7 @@ export default function Home() {
 
             <div className="grid grid-cols-4 bg-purple-700 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>4º |</h1>
-                <img src="https://i.imgur.com/iAGv6WN.png" width={100} height={50} alt="logo"/>
+                <Image src="https://i.imgur.com/iAGv6WN.png" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold m-2'>FunPlus Phoenix</h3>
                 <div className="bg-white p-2 rounded-lg text-black ml-2">1616</div>
             </div>

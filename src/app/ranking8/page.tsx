@@ -39,7 +39,7 @@ export default function Home() {
 
             <div className="grid grid-cols-4 bg-purple-700 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
                 <h1>3º |</h1>
-                <img src="https://static.significados.com.br/flags/ua.svg" width={100} height={50} alt="logo"/>
+                <Image src="https://static.significados.com.br/flags/ua.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold '>Natus Vincere</h3>
                 <div className="bg-white p-2 rounded-lg text-black ml-2">2120</div>
             </div>
