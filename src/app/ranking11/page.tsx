@@ -1,18 +1,20 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Legend from '../../components/legend/legends';
+import Header from '../../components/header/header';
+
+const footerLinks = [
+    { href: '/ranking10', text: '2023/3' },
+    { href: '/', text: 'Home' },
+    { href: '/ranking12', text: '2024/0' }
+];
+
 
 export default function Home() {
     return (
-    <div className="bg-black text-white items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="bg-[#0f1923] text-white items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
     <header className="w-full p-5 flex flex-col items-center justify-center">
-        <h1 className="text-xl font-bold">VCT Teams Nerdola´s Rankings</h1>
-        
-        <Link 
-            className="w-1/4 bg-white text-black p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
-            href={"/"}>
-            Home
-        </Link>
+        <Header logoSrc="/nerdolalogo.png" links={footerLinks} />
     </header>
 
         <main className="row-start-2 items-center sm:items-start w-full">
@@ -129,7 +131,7 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-4 bg-gray-500 h-[100px] gap-4 m-5 flex items-center justify-center rounded-lg transition-all hover:scale-105 ">
-                <h1>15º |</h1>
+                <h1>16º |</h1>
                 <Image src="https://static.significados.com.br/flags/kr.svg" width={100} height={50} alt="logo"/>
                 <h3  className='text-xl font-bold m-2'>T1</h3>
                 <div className="bg-white p-2 rounded-lg text-black ml-2">605</div>

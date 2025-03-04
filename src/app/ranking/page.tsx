@@ -1,18 +1,25 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Legend from '../../components/legend/legends';
+import Footer from '../../components/footer/footer';
 
 export default function Home() {
     return (
-    <div className="bg-black text-white items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="bg-[#0f1923] text-white items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
     <header className="w-full p-5 flex flex-col items-center justify-center">
-        <h1 className="text-xl font-bold">VCT Teams Nerdola´s Rankings</h1>
-        
-        <Link 
-            className="w-1/4 bg-white text-black p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
-            href={"/"}>
-            Home
-        </Link>
+        <Image src="/nerdolalogo.png" width={300} height={200} alt="logo" className='animate-slowbounce'/>
+        <div className='flex items-center justify-center gap-2'>
+            <Link 
+                className="w-2/4 bg-[#ff4656]  text-white p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
+                href={"/"}>
+                Home
+            </Link>
+            <Link 
+                className="w-2/4 bg-[#ff4656]  text-white p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
+                href={"/ranking2"}>
+                2021/2
+            </Link>
+        </div>
     </header>
 
         <main className=" row-start-2 items-center sm:items-start w-full">

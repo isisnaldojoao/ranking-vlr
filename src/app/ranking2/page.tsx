@@ -4,18 +4,31 @@ import Legend from '../../components/legend/legends';
 
 export default function Home() {
     return (
-    <div className="bg-black text-white items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="bg-[#0f1923] text-white items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
     <header className="w-full p-5 flex flex-col items-center justify-center">
-        <h1 className="text-xl font-bold">VCT Teams Nerdola´s Rankings</h1>
+        <Image src="/nerdolalogo.png" width={300} height={200} alt="logo" className='animate-slowbounce'/>
         
-        <Link 
-            className="w-1/4 bg-white text-black p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
-            href={"/"}>
-            Home
-        </Link>
+        <div className='flex items-center justify-center gap-2'>
+            <Link 
+                className="w-2/4 bg-[#ff4656]  text-white p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
+                href={"/ranking"}>
+                2021/1
+            </Link>
+            <Link 
+                className="w-2/4 bg-[#ff4656]   text-white p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
+                href={"/"}>
+                Home
+            </Link>
+            <Link 
+                className="w-2/4 bg-[#ff4656] text-white p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
+                href={"/ranking3"}>
+                2021/3
+            </Link>
+        </div>
+
     </header>
 
-        <main className="row-start-2 items-center sm:items-start w-full">
+    <main className="row-start-2 items-center sm:items-start w-full">
             <div className='flex items-center justify-center m-5'>
                 <h1>Version 1.0</h1>
             </div>
