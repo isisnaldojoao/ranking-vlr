@@ -5,7 +5,7 @@ import Header from '../../components/header/header';
 
 const footerLinks = [
     { href: '/ranking14', text: '2024/2' },
-    { href: '/', text: 'Home' },
+    { href: '/', text: 'Menu' },
     { href: '/ranking16', text: '2024/4' }
 ];
 export default function Home() {

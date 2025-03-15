@@ -17,7 +17,7 @@ export default function Home() {
             <Link 
                 className="w-2/4 bg-[#ff4656]  text-white p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
                 href={"/"}>
-                Home
+                Menu
             </Link>
             <Link 
                 className="w-2/4 bg-[#ff4656]  text-white p-5 h-[50px] flex items-center justify-start rounded-lg transition-all hover:scale-105 self-start"
