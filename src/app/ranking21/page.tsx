@@ -4,7 +4,7 @@ import Legend from '../../components/legend/legends';
 import Header from '../../components/header/header';
 
 const footerLinks = [
-    { href: '/ranking19', text: '2025/1' },
+    { href: '/ranking20', text: '2025/1' },
     { href: '/', text: 'Menu' },
 ];
 
