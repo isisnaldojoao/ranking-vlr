@@ -1,11 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 import Footer from '../components/footer/footer';
 
 export default function Home() {
