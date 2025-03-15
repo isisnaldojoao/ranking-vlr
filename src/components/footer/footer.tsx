@@ -7,7 +7,7 @@ export default function Footer() {
 
 return (
     <footer className="w-full p-5 text-white flex flex-row items-center justify-between gap-5 bg-[#ff4656]">
-        <div className='flex'>
+        <div className='flex gap-2'>
             <Link
             target='blank'
             href={"https://x.com/nerdola_vlr"}
