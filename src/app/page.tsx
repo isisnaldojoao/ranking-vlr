@@ -19,7 +19,7 @@ export default function Home() {
     const hasVisited = sessionStorage.getItem("visitedHome");
     if (!hasVisited) {
       sessionStorage.setItem("visitedHome", "true");
-      router.replace("/ranking21"); // Redireciona apenas na primeira visita
+      router.replace("/ranking22"); // Redireciona apenas na primeira visita
     }
   }, []);
 
