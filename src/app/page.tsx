@@ -198,6 +198,11 @@ export default function Home() {
                     2025/2
                   </div>
                 </Link>
+                <Link href="/ranking22">
+                  <div className="bg-white text-black mt-2 flex p-5 w-[250px] items-center justify-center rounded-lg transition-all hover:scale-105">
+                    2025/3
+                  </div>
+                </Link>
               </div>
             </AccordionContent>
           </AccordionItem>
